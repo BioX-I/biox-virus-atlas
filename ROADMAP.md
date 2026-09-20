@@ -2,10 +2,10 @@
 
 Vision : atlas open-source pour explorer les virus via donnees publiques : genomes + structures + phylogenie.
 
-## v0.1.0 — MVP genomique
+## v0.1.0 — MVP genomique (focus hantavirus, espece test : Puumala)
 
-- [ ] Fetch NCBI Virus (ex : 10 genomes, 1 espece test)
-- [ ] Parse FASTA, QC longueur / N
+- [ ] Fetch NCBI Virus : 10 genomes segment S Puumala -> `data/raw/` (gitignored)
+- [ ] Parse FASTA, QC longueur / N (`genomics.py`)
 - [ ] BLAST / alignement + arbre phylo (MEGA / IQ-TREE ou Biopython)
 - [ ] Notebook 01 reproductible
 - [ ] Tests >=80%, CI verte
