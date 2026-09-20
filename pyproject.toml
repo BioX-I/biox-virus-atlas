@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biox-virus-atlas"
+version = "0.0.0"
+requires-python = ">=3.10"
+dependencies = ["biopython>=1.83", "pandas>=2.0", "matplotlib>=3.8", "requests>=2.31"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

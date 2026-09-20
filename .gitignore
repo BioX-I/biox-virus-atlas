@@ -1,0 +1,33 @@
+# R101 + R106 + data
+PLAN.md
+SESSION_SUMMARY.md
+decision-memo.md
+LAUNCH_POSTS.md
+docs/launch_plan_*.md
+docs/hn_feedback_log.md
+docs/community_post_template.md
+docs/launch_postmortem.md
+docs/cdp_protocol_definition.md
+docs/STRUCTURE_DOCS.md
+docs/verification_report_*.md
+docs/tracking/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+
+# Data (raw non versionne, garde les scripts pas les gros fichiers)
+data/raw/
+data/*.fasta
+data/*.gb
+data/*.pdb
+*.ncbi_key
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

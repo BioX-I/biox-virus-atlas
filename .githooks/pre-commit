@@ -1,0 +1,6 @@
+#!/bin/sh
+# R101 pre-commit : bloque les fichiers prives
+BLOCKED="PLAN.md|SESSION_SUMMARY.md|decision-memo.md|LAUNCH_POSTS.md|docs/launch_plan_|docs/hn_feedback_log.md|docs/tracking/"
+STAGED=$(git diff --cached --name-only)
+echo "$STAGED" | grep -E "$BLOCKED" && echo "BLOCKED by R101: fichier prive dans le commit" && exit 1
+exit 0
