@@ -18,6 +18,8 @@ __pycache__/
 .venv/
 .env
 .pytest_cache/
+*.egg-info/
+src/*.egg-info/
 
 # Data (raw non versionne, garde les scripts pas les gros fichiers)
 data/raw/
